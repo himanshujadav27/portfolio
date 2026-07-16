@@ -224,7 +224,7 @@ main{
 
     color:#E2E8F0;
 
-    font-size:15px;
+    font-size:14px;
 
     line-height:1.8;
 
@@ -314,37 +314,6 @@ main{
 
 }
 
-.code-content{
-
-    padding:25px;
-
-    font-family:Consolas,"Courier New",monospace;
-
-    font-size:15px;
-
-    line-height:1.8;
-
-    color:#E2E8F0;
-
-}
-
-.indent{
-
-    padding-left: 20px;
-
-}
-
-.indent1{
-
-    padding-left: 85px;
-
-}
-
-.indent2{
-
-    padding-left: 115px;
-
-}
 
 .hero-buttons {
 
@@ -395,7 +364,7 @@ main{
 
 #resume_btn{
 
-    background:#22C55E;
+    background:#38BDF8;;
 
     color:white;
 
@@ -405,7 +374,7 @@ main{
 
 #resume_btn:hover{
 
-    background:#16A34A;
+    background:#0EA5E9;
 
 }
 
@@ -419,7 +388,7 @@ main{
 
 .hero h1{
 
-    font-size:72px;
+    font-size:60px;
 
     margin:10px 0;
 
@@ -439,7 +408,7 @@ main{
 
 .hero-description{
 
-    max-width:650px;
+    max-width:550px;
 
     font-size:20px;
 
@@ -933,7 +902,7 @@ button{
 
     cursor: pointer;
 
-    transition: 0.25s;
+    transition: 0.25s ease;
 
 }
 
@@ -942,7 +911,6 @@ button:hover {
     transform: translateY(-2px);
 
     background:#0EA5E9;
-
 
 }
 
@@ -1003,7 +971,7 @@ footer a:hover {
 
     nav{
 
-        flex-direction:column;
+        flex-direction:row;
 
         gap:18px;
 
@@ -1080,15 +1048,67 @@ footer a:hover {
 
         padding:18px;
 
-        padding-right: 50px;
+        padding-right: 100px;
 
         line-height:1.6;
 
     }
 
-    
+    /* .keyword{
 
-    /* ---------- ABOUT ---------- */
+        padding-left: 0;
+
+    } */
+
+    .variable{
+
+        padding-right: 50px;
+
+    }
+
+    .skills-property{
+
+        padding-right: 100px;
+
+    }
+
+    .string {
+
+        padding-right: 100px;
+
+    }
+
+    .string-html{
+
+        padding-right: 60px;
+
+    }
+
+    .string-css{
+
+        padding-right: 64px;
+
+    }
+
+    .string-js {
+
+        padding-right: 21px;
+
+    }
+
+    .end-bracket {
+
+        padding-right: 120px; 
+
+    }
+
+    .end-bracket-parent {
+
+        padding-right: 120px;
+
+    }
+
+        /* ---------- ABOUT ---------- */
 
     .about-container{
 
