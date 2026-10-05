@@ -22,7 +22,7 @@ body{
 
     min-height: 100vh;
 
-    display: flex;
+    display: flex   ;
 
     flex-direction: column;
 }
@@ -544,6 +544,7 @@ main{
 
 }
 
+
 .skill-container{
 
     display: flex;
@@ -558,6 +559,13 @@ main{
 
 }
 
+.skills h2{
+
+    font-size: 40px;
+
+    margin-bottom:40px;
+
+}
 .skill-card{
 
     background-color: #1E293B;
@@ -591,6 +599,8 @@ main{
 
     margin-bottom:15px;
 
+    text-align: center;
+
 }
 
 .skill-card p,
@@ -610,7 +620,7 @@ main{
 
     text-align:center;
 
-    margin-bottom:40px;
+    margin-bottom: 50px;
 
 }
 
@@ -635,13 +645,15 @@ main{
 
 .project-container{
 
-    display: flex;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
 
     width: 100%;
 
     gap: 30px;
 
-    align-items: stretch;
+    align-items: center;
     
     justify-content: center;
 
@@ -714,7 +726,7 @@ main{
 
     height: 180px;
 
-    object-fit: cover;
+    object-fit:contain;
 
     border-radius: 10px;
 
@@ -1128,9 +1140,12 @@ footer a:hover {
 
     .project-container{
 
-        flex-direction:column;
+
+            grid-template-columns: 1fr;
 
     }
+
+
 
     /* ---------- CONTACT ---------- */
 
