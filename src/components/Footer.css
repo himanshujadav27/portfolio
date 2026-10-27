@@ -1,0 +1,57 @@
+footer{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+    background:#020617;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    font-family:"Segoe UI", sans-serif;
+
+}
+
+.footer-links {
+
+    display: flex;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+footer a {
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+        
+    font-weight: bold;
+
+}
+
+footer a:hover {
+
+    color:#38BDF8;
+
+}
+
+@media (max-width:768px){
+    /* ---------- FOOTER ---------- */
+
+    footer{
+
+        text-align:center;
+
+    }
+}
